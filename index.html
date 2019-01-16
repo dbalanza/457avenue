@@ -8,17 +8,84 @@
 	<link rel="stylesheet" href="assets/css/vendor/animate/animate.css">
 	<link rel="stylesheet" href="assets/css/vendor/font-awesome/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/vendor/font-awesome/font-awesome-animation.css">
+	<link rel="stylesheet" href="assets/css/vendor/agency/agency.css">
 	<link rel="stylesheet" href="assets/css/custom/home.css">
 	<link rel="stylesheet" href="assets/fonts/webfonts_kit.css">
+
 
 	<script src="assets/js/vendor/jquery/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/vendor/bootstrap_4/tooltip.min.js"></script>
 	<script src="assets/js/vendor/bootstrap_4/popper.min.js"></script>
 	<script src="assets/js/vendor/bootstrap_4/bootstrap.min.js"></script>
 	<script src="assets/js/vendor/parallax/parallax.min.js"></script>
+	<script src="assets/js/vendor/agency/agency.js"></script>
 	<script src="assets/js/custom/home.js"></script>
 </head>
 <body>
+	<section id="splash" class="header_background">
+		<nav class="navbar  navbar-expand-lg sticky-top">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  	<ul id="top_navigation" class="list-unstyled">
+				<li  data-section-id='splash' id="company_logo">457 AVE INC.</li>
+				<li data-section-id='our_services_section'>Our Services</li>
+				<li data-section-id='technology_section' >Technologies</li>
+				<li data-section-id='process'>Our Process</li>
+			</ul>
+		  </div>
+		</nav>
+		<div id="animated_services_block" class="animated fadeInDown delay-1s">
+            <div class="circle web_design_circle"></div>
+            <div class="circle front_end_circle"></div>
+            <div class="circle mobile_apps_circle"></div>
+            <div class="circle back_end_circle"></div>
+            <div class="circle security_circle"></div>          
+        </div>
+		<div id="banner_text">
+			<img src="assets/img/titlle_border_up.png" alt="#" class="titlle_border_up">
+			<img src="assets/img/titlle_border_down.png" alt="#" class="titlle_border_down">
+			<img src="assets/img/logo.png" alt="#" class="logo_img">
+			<h1 class="animated fadeInDown delay-04s">457 AVE INC</h1>
+			<h2 class="animated fadeInDown delay-04s">SOFTWARE ENGINEERING</h2>
+			<h5 class="animated fadeInUp delay-08s ">We specialize in web technologies. You can think it. We can build it.</h5>
+		</div>
+	</section>
+	<section id="our_services_section">
+		<div class="container">
+			<h3>Our Services</h3>
+			<p>Let's work together on your project, combining your expertise in your field with our expertise in programming.</p>
+
+			<div class="row">
+				<div class="col-sm" id="custom_web_container">
+					<h5>Custom Web/Mobile Application Design & Development</h5>
+					<p>We've been working with various start-ups & companies and have built custom apps such as Learning Platform, CRM, CMS, Online Payments, Company Websites, Accounting Solutions, and a lot more!</p>
+				</div>
+				<div class="col-sm" id="website_scaling_container">
+					<h5>Website Scaling & Server Performance Tuning</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos fugiat sint quis modi suscipiuae! Ratione, sapiente facilis.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm" id="db_design_container">
+					<h5>Database Design & Development</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos fugiat sint quis modi suscipit blanditiis</p>
+				</div>
+				<div class="col-sm" id="responsive_design_container">
+					<h5>Responsive UI/UX Design & Development</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos fugiat sint quis modi suscipit</p>
+				</div>
+				<div class="col-sm" id="virtual_reality_container">
+					<h5>Virtual Reality</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos fugiat sint quis</p>
+					<img src="assets/img/services_5.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section id="technology_section">
 		<h3>Technologies</h3>
 		<ul id="stack_list" class="list-unstyled">
@@ -84,5 +151,59 @@
 	<div class="parallax_block">
 		<div class="middle_parallax parallax-window" data-parallax="scroll" data-image-src="https://cdn2.codingdojo.com/new_images/parallax_images/paralllax-onsite-2.jpg"></div>
 	</div>
+
+	<section id="process" class="">
+		<div id="process_content">
+			<h3 class="global_padding rotate">The 457 AVE INC. Process</h3>
+			<h5 class="global_padding">Agile software development  that starts and ends with you.</h5>
+			<div id="process_container" class="fluid-container">
+				<div id="meet_block" class="process_hover">
+					<div class="orange_hover_full_width"></div>
+					<div class="meet_block_content global_padding">
+						<h4>1. MEET</h4>	
+						<p class="full_block_paragraph">The first step is to discover more about you, your company's vision, and to build a strong relationship. This is where we will create your brand, create a custom strategy, and set project goals.</p>
+					</div>
+				</div><!--
+			--><div id="plan_block" class="process_block process_hover">
+
+					<div class="orange_hover_half_width"></div>
+					<div class="process_content process_padding tablet_padding">
+						<h4>2. PLAN</h4>
+						<p class="half_block_paragraph">Following the initial meetup, we will outline your project, create milestones, and agree on priorities. Now we have a strategic plan in place that aligns with your initial vision and makes your goals achievable.</p>
+					</div>
+				</div><!--
+			--><div id="design_dev_block" class="process_block process_hover">
+					<div class="orange_hover_half_width"></div>
+					<div class="process_content process_padding">
+						<h4>3. DESIGN &ampamp; DEV</h4>
+						<p class="half_block_paragraph">Once the outline is finished, visual concepts of the custom project will be created. Our creative and development team reviews and revises the materials until it aligns with your goals.</p>
+					</div>
+				</div><!--
+			--><div id="testing_block" class="process_block process_hover">
+					<div class="orange_hover_half_width"></div>
+					<div class="process_content process_padding tablet_padding">
+						<h4>4. TESTING</h4>
+						<p class="half_block_paragraph">Here review and testing takes place, which ensures the quality of your project. This is an essential step because your reputation is our reputation!</p>
+					</div>
+				</div><!--
+			--><div id="launch_block" class="process_block process_hover">
+					<div class="orange_hover_half_width"></div>
+					<div class="process_content process_padding">
+						<h4>5. LAUNCH</h4>
+						<p class="half_block_paragraph">Here is where we present your custom project. Upon approval, your custom project will be launched and promoted. Then sit back and watch the momentum!</p>
+					</div>
+				</div>				
+			</div>	
+		</div>
+	</section>
+	<section id="footer">
+		<img src="assets/img/logo_small.png" alt="#">
+		<span>457 AVE INC.</span>
+		<ul id="footer_links">
+			<li data-section-id='our_services_section'>Our Services</li>
+			<li data-section-id='technology_section' >Technologies</li>
+			<li data-section-id='process'>Our Process</li>
+		</ul>
+	</section>
 </body>
 </html>
